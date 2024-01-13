@@ -9,19 +9,19 @@
 <body>
     <div class="section">
         <h1 class="heading">Actions</h1>
-        <button class="button" id="button1">Show me a meme</button>
+        <button class="button" id="button1" onclick="showMeme()">Show me a meme</button>
         <br>
-        <button class="button" id="button2">Tell Me a Joke</button>
+        <button class="button" id="button2" onclick="showJoke()">Tell Me a Joke</button>
         <br>
-        <button class="button" id="button3" onclick="quote()"> Quote</button>
+        <button class="button" id="button3" onclick="showQuote()"> Quote</button>
         <br>
-        <button class="button" id="button4">Riddle Me</button>
+        <button class="button" id="button4" onclick="showRiddle()">Riddle Me</button>
         <br>
     </div>
     <div class="section">
-        <h2>Right Section</h2>
-        <p id="content"></p>
+        <div class = "thecontent">
+        </div>
     </div>
 </body>
-<script src="script.js" type="module"></script>
+<script src="script.js"></script>
 </html>
