@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex; /* Add this line to make the body a flex container */
+}
+
+.section {
+    flex: 1;
+    height: 100vh;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+.button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px; 
+    height: 100px;
+    margin: 50px; 
+}
